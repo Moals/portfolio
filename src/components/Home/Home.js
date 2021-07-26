@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import myPic from "../../Assets/MyPic.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
@@ -11,7 +11,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-        <img src={myPic} alt="my picture" className="img-fluid main-img"/>
+        <img src={myPic} alt="" className="img-fluid main-img"/>
         <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello, World! 
               </h1>
