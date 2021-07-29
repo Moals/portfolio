@@ -16,7 +16,7 @@ function AboutCard() {
             <br />
             I'm a proud member of the  
             <a className="purple" target="_blank" rel="noreferrer" href="https://twitter.com/ftcksu"> future technology club</a>
-            , where i have volunteered 100+ in organazing 
+            , where i have volunteered 100+ hours in organazing 
             over 10 events and workshops about various development tools targeting the tech community in
              Saudi Arabia with over 500 beneficiaries, and filming over 5 youtube vidoes about new technologies on 
              <a className="purple" target="_blank" rel="noreferrer" href="https://www.youtube.com/user/FTCKSU"> FTC youtube channel</a>.
