@@ -26,7 +26,7 @@ function Resume() {
             <Resumecontent
               title="BSc Computer Science [King Saud University] "
               date="2017 - Present (expected graduation by february 2022)"
-              content={[`GPA: 3.81 (Till 7th Sem)`]}
+              content={[`GPA: 3.85 `]}
             />
             
             <h3 className="resume-title">Skills</h3>
@@ -36,26 +36,56 @@ function Resume() {
                 `Java`,
                 `Python`,
                 'JavaScript',
-                
+                'Dart',
               ]}
             />
             <Resumecontent
-              title="Frontend"
+              title="Frameworks and libraries"
               content={[
                 `React`,
-                `jQuery`,
-                `CSS3`,
-                'HTML5',
-                'Bootstrap4',
+                `Flutter`,
+                `Bootstrap`,
+                'Express.js',
               ]}
             />
             <Resumecontent
               title="Backend"
               content={[
                 `Node.js`,
-                `Express.js`,
                 `MySql`,
                 'MongoDB',
+              ]}
+            />
+            <Resumecontent
+              title="Others"
+              content={[
+                `Git`,
+                `HTML`,
+                `CSS`,
+              ]}
+            />
+            
+          </Col>
+          <Col md={6} className="resume-right">
+            <h3 className="resume-title">Projects</h3>
+            <Resumecontent
+              title="Sentiment analysis with machine learning (Graduation project)"
+              content={[
+                "We used Arabic tweets dataset about the health services in Saudi Arabia to predict and label future tweets with either positive or negative, we implemented 3 machine learning algorithms in Python and experimented with different methods until we reached 90% prediction accuracy",
+              ]}
+            />
+            <Resumecontent
+              title="Maze navigation with Artificial Intelligence"
+              content={[
+                "Given any rectangular maze image, the program will find the optimal path between two positions using 4 different AI algorithms implemented in Java",
+              ]}
+            />
+            <h3 className="resume-title">Volunteering</h3> 
+            <Resumecontent
+              title="Future Technology Club"
+              date="August 2019 - present"
+              content={[
+                "Volunteered 70+ hours in organazing and hosting tech events and publishing youtube videos among other activities for the tech community in Saudi.",
               ]}
             />
             <h3 className="resume-title">Languages</h3>
@@ -66,25 +96,6 @@ function Resume() {
                 `English (fluent)`,
               ]}
             />
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Projects</h3>
-            <Resumecontent
-              title="Graduation Project"
-              date="Jan 2021 - Dec 2021"
-              content={[
-                "Our goal in this group project is to analyze and identify the meaning of the tweets and label them with either a negative or a positive label and identify the reason by using appropriate machine learning algorithms and sentiment analysis techniques that would achieve the highest possible accuracy. ",
-              ]}
-            />
-            <h3 className="resume-title">Volunteering</h3>
-            <Resumecontent
-              title="Future Technology Club"
-              date="August 2019 - present"
-              content={[
-                "Volunteered 100+ hours in organazing and hosting tech events and publishing youtube videos among other activities for the benefit of the tech community in Saudi.",
-              ]}
-            />
-            
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>

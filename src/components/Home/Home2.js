@@ -43,7 +43,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mohammed-al-saeed-436897128/"
+                  href="https://www.linkedin.com/in/moals/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -51,16 +51,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.goodreads.com/user/show/51826473-mohammed-alsaeed"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaGoodreadsG />
-                </a>
-              </li>
+              
             </ul>
           </Col>
         </Row>
