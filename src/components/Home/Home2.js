@@ -4,8 +4,7 @@ import {
   AiFillGithub
 } from "react-icons/ai";
 import { 
-  FaLinkedinIn ,
-  FaGoodreadsG
+  FaLinkedinIn 
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
