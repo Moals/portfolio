@@ -25,8 +25,8 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="BSc Computer Science [King Saud University] "
-              date="2017 - Present (expected graduation by february 2022)"
-              content={[`GPA: 3.85 `]}
+              date="2017 - Present"
+              content={[`expected graduation by february 2022`]}
             />
             
             <h3 className="resume-title">Skills</h3>
